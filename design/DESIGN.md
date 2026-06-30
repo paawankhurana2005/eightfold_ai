@@ -4,8 +4,30 @@
 per candidate — normalized, deduplicated, with **provenance and confidence on every value**.
 Principle: *wrong-but-confident is worse than honestly-empty* — unknowns become `null`, never invented.
 
-## Pipeline
+## Architecture
 `ingest → extract (per-source adapters) → normalize → merge/dedupe → score confidence → canonical record → project (runtime config) → validate → emit`
+
+```mermaid
+flowchart TB
+    subgraph SRC["Sources — ≥1 structured + ≥1 unstructured"]
+        direction LR
+        CSV[Recruiter CSV]
+        ATS[ATS JSON]
+        GH[GitHub fixture/live]
+        RES[Resume PDF/DOCX]
+        NOTES[Recruiter notes]
+    end
+
+    SRC -->|"adapters never throw<br/>bad source → [] + warning"| CLAIMS["Raw claims<br/>(path, value, source, method)"]
+    CLAIMS --> NORM["Normalize<br/>E.164 · YYYY-MM · ISO-3166 · skill aliases<br/>won't normalize → dropped"]
+    NORM --> MERGE["Merge / dedupe<br/>3-tier identity · trust-ranked winners<br/>provenance + confidence per field"]
+    MERGE --> PROFILE[["CandidateProfile<br/>single internal source of truth"]]
+
+    CFG["Runtime config (JSON)"] --> PROJ
+    PROFILE -.->|"projection wall"| PROJ["Project<br/>rename/remap · per-field normalize<br/>on_missing policy · prov/conf toggles"]
+    PROJ --> VAL["Validate<br/>JSON Schema built from the config"]
+    VAL --> OUT["Emit<br/>clean JSON → stdout · warnings → stderr"]
+```
 
 - **ingest** detects source type by filename; any source may be missing/empty/malformed.
 - **extract**: one adapter per source emits raw *claims* `(path, value, source, method)`. Adapters
@@ -68,6 +90,8 @@ default and any custom shape come from **one engine, no code changes**.
 4. Same skill, many spellings (JS/JavaScript) → canonicalized & merged, sources combined.
 5. No email & no phone match → kept standalone; dedupe deliberately not attempted.
 
-## Deliberately out of scope (under time pressure)
-LinkedIn scraping (no public API); ML/NLP resume parsing (deterministic regex/section heuristics, flagged
-low-confidence); fuzzy cross-candidate identity beyond the 3-tier chain; a UI (a clean CLI is provided).
+## Scope boundaries (intentional)
+Chosen deliberately to keep the system deterministic and explainable: LinkedIn scraping is excluded
+(no public API); resume parsing uses deterministic regex/section heuristics rather than ML/NLP, and the
+values it produces are flagged low-confidence; cross-candidate identity is limited to the 3-tier chain
+(no fuzzy clustering); and the surface is a clean CLI rather than a UI.

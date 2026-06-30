@@ -142,10 +142,11 @@ def build():
                     "profile. (4) Same skill, many spellings → canonicalized &amp; merged, sources combined. "
                     "(5) No email &amp; no phone match → kept standalone; dedupe not attempted."))
 
-    story.append(H_("Out of scope (under time pressure)"))
-    story.append(P_("LinkedIn scraping (no public API); ML/NLP resume parsing (deterministic regex/section "
-                    "heuristics, flagged low-confidence); fuzzy cross-candidate identity beyond the 3-tier chain; "
-                    "a UI (a clean CLI is provided)."))
+    story.append(H_("Scope boundaries (intentional)"))
+    story.append(P_("Chosen deliberately to keep the system deterministic and explainable: LinkedIn scraping is "
+                    "excluded (no public API); resume parsing uses deterministic regex/section heuristics rather "
+                    "than ML/NLP, and those values are flagged low-confidence; cross-candidate identity is limited "
+                    "to the 3-tier chain (no fuzzy clustering); and the surface is a clean CLI rather than a UI."))
 
     doc.build(story)
 
