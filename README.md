@@ -148,9 +148,3 @@ diff /tmp/a.json /tmp/b.json   # identical
   regex/section heuristics rather than ML/NLP, and those values are flagged low-confidence;
   cross-candidate identity is limited to the 3-tier chain (no fuzzy clustering); and the
   surface is a clean CLI rather than a UI.
-
-## Design doc / submission
-
-The Stage-1 one-pager is `design/DESIGN.md`, rendered to `design/Eightfold_Design.pdf`
-(`python design/make_design_pdf.py`). For submission, rename the PDF to
-`<YourFullName>_<YourEmail>_Eightfold.pdf` per the brief.
