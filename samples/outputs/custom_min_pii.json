@@ -1,0 +1,67 @@
+[
+  {
+    "candidate_id": "cand_44ceead6feb7",
+    "full_name": "Alex Rivera",
+    "headline": "Full-stack engineer; nine years on distributed backends, plus toy C++ systems for fun.",
+    "top_skills": [
+      "Django",
+      "Docker",
+      "Go",
+      "GraphQL",
+      "JavaScript",
+      "Kubernetes",
+      "Node.js",
+      "PostgreSQL",
+      "Python",
+      "React",
+      "Redis",
+      "Rust",
+      "SQL",
+      "Terraform",
+      "TypeScript"
+    ]
+  },
+  {
+    "candidate_id": "cand_996067f363f2",
+    "full_name": "Jane Mcdonald",
+    "headline": "Staff software engineer focused on distributed systems and data platforms.",
+    "location_country": "US",
+    "top_skills": [
+      "AWS",
+      "Go",
+      "JavaScript",
+      "Kubernetes",
+      "PostgreSQL",
+      "Python",
+      "Rust",
+      "Terraform",
+      "gRPC"
+    ]
+  },
+  {
+    "candidate_id": "cand_058a09397829",
+    "full_name": "Liang Wei",
+    "headline": "Frontend engineer",
+    "location_country": "NL",
+    "top_skills": [
+      "CSS",
+      "GraphQL",
+      "JavaScript",
+      "Node.js",
+      "React",
+      "TypeScript"
+    ]
+  },
+  {
+    "candidate_id": "cand_0b36abb236c8",
+    "full_name": "Marco Rossi",
+    "headline": "Backend engineer with a focus on payments and reliability.",
+    "top_skills": [
+      "Docker",
+      "Java",
+      "Kafka",
+      "PostgreSQL",
+      "Spring"
+    ]
+  }
+]

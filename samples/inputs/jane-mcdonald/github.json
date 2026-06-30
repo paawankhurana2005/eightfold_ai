@@ -1,0 +1,11 @@
+{
+  "user": {
+    "login": "janemcd",
+    "name": "Jane McDonald",
+    "bio": "Staff engineer — distributed systems & data platforms",
+    "location": "San Francisco, CA, USA",
+    "html_url": "https://github.com/janemcd",
+    "blog": "https://janemcd.dev"
+  },
+  "languages": ["Python", "Go", "Rust", "JavaScript"]
+}

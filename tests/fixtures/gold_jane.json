@@ -1,0 +1,257 @@
+{
+  "candidate_id": "cand_996067f363f2",
+  "full_name": "Jane Mcdonald",
+  "emails": [
+    "jane.mcdonald@example.com"
+  ],
+  "phones": [
+    "+14155552671"
+  ],
+  "location": {
+    "city": "San Francisco",
+    "region": "CA",
+    "country": "US"
+  },
+  "links": {
+    "linkedin": "https://linkedin.com/in/janemcdonald",
+    "github": "https://github.com/janemcd",
+    "portfolio": "https://janemcd.dev",
+    "other": []
+  },
+  "headline": "Staff software engineer focused on distributed systems and data platforms.",
+  "years_experience": 9.0,
+  "skills": [
+    {
+      "name": "AWS",
+      "confidence": 0.9,
+      "sources": [
+        "ats_json"
+      ],
+      "verified_in_code": false
+    },
+    {
+      "name": "Go",
+      "confidence": 0.99,
+      "sources": [
+        "ats_json",
+        "github",
+        "recruiter_notes",
+        "resume"
+      ],
+      "verified_in_code": true
+    },
+    {
+      "name": "JavaScript",
+      "confidence": 0.5,
+      "sources": [
+        "github"
+      ],
+      "verified_in_code": true
+    },
+    {
+      "name": "Kubernetes",
+      "confidence": 0.99,
+      "sources": [
+        "ats_json",
+        "recruiter_notes",
+        "resume"
+      ],
+      "verified_in_code": false
+    },
+    {
+      "name": "PostgreSQL",
+      "confidence": 0.54,
+      "sources": [
+        "resume"
+      ],
+      "verified_in_code": false
+    },
+    {
+      "name": "Python",
+      "confidence": 0.99,
+      "sources": [
+        "ats_json",
+        "github",
+        "recruiter_notes",
+        "resume"
+      ],
+      "verified_in_code": true
+    },
+    {
+      "name": "Rust",
+      "confidence": 0.5,
+      "sources": [
+        "github"
+      ],
+      "verified_in_code": true
+    },
+    {
+      "name": "Terraform",
+      "confidence": 0.54,
+      "sources": [
+        "resume"
+      ],
+      "verified_in_code": false
+    },
+    {
+      "name": "gRPC",
+      "confidence": 0.54,
+      "sources": [
+        "resume"
+      ],
+      "verified_in_code": false
+    }
+  ],
+  "experience": [
+    {
+      "company": "Acme Corp",
+      "title": "Staff Software Engineer",
+      "start": "2021-03",
+      "end": null,
+      "summary": "Staff Software Engineer at Acme Corp Mar 2021 - Present"
+    },
+    {
+      "company": "Globex",
+      "title": "Senior Engineer",
+      "start": "2017-06",
+      "end": "2021-02",
+      "summary": "Senior Engineer at Globex Jun 2017 - Feb 2021"
+    }
+  ],
+  "education": [
+    {
+      "institution": "MIT",
+      "degree": "BS",
+      "field": "Computer Science",
+      "end_year": 2014
+    }
+  ],
+  "overall_confidence": 0.9246,
+  "provenance": [
+    {
+      "field": "education",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "education",
+      "source": "resume",
+      "method": "heuristic"
+    },
+    {
+      "field": "emails",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_csv",
+      "method": "direct"
+    },
+    {
+      "field": "emails",
+      "source": "recruiter_notes",
+      "method": "regex"
+    },
+    {
+      "field": "emails",
+      "source": "resume",
+      "method": "regex"
+    },
+    {
+      "field": "experience",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "experience",
+      "source": "recruiter_csv",
+      "method": "direct"
+    },
+    {
+      "field": "experience",
+      "source": "resume",
+      "method": "heuristic"
+    },
+    {
+      "field": "full_name",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "headline",
+      "source": "resume",
+      "method": "heuristic"
+    },
+    {
+      "field": "links.github",
+      "source": "github",
+      "method": "api"
+    },
+    {
+      "field": "links.linkedin",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "links.portfolio",
+      "source": "github",
+      "method": "api"
+    },
+    {
+      "field": "location.city",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "location.country",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "location.region",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "phones",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "phones",
+      "source": "recruiter_csv",
+      "method": "direct"
+    },
+    {
+      "field": "phones",
+      "source": "resume",
+      "method": "regex"
+    },
+    {
+      "field": "skills",
+      "source": "ats_json",
+      "method": "mapped"
+    },
+    {
+      "field": "skills",
+      "source": "github",
+      "method": "api"
+    },
+    {
+      "field": "skills",
+      "source": "recruiter_notes",
+      "method": "regex"
+    },
+    {
+      "field": "skills",
+      "source": "resume",
+      "method": "regex"
+    },
+    {
+      "field": "years_experience",
+      "source": "ats_json",
+      "method": "mapped"
+    }
+  ]
+}

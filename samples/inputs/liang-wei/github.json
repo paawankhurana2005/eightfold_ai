@@ -1,0 +1,11 @@
+{
+  "user": {
+    "login": "liangwei",
+    "name": "Liang Wei",
+    "bio": "Frontend engineer",
+    "location": "Amsterdam, Netherlands",
+    "html_url": "https://github.com/liangwei",
+    "blog": ""
+  },
+  "languages": ["TypeScript", "JavaScript", "CSS"]
+}

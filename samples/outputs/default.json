@@ -1,0 +1,777 @@
+[
+  {
+    "candidate_id": "cand_44ceead6feb7",
+    "full_name": "Alex Rivera",
+    "emails": [
+      "alex.rivera@example.com"
+    ],
+    "phones": [
+      "+14155550182"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Full-stack engineer; nine years on distributed backends, plus toy C++ systems for fun.",
+    "years_experience": null,
+    "skills": [
+      {
+        "name": "Django",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Docker",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Go",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "GraphQL",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Node.js",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Python",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "React",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Redis",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Rust",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "SQL",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Terraform",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      }
+    ],
+    "experience": [
+      {
+        "company": "Cloudscale Systems",
+        "title": "Senior Software Engineer",
+        "start": "2021-05",
+        "end": null,
+        "summary": "Senior Software Engineer at Cloudscale Systems May 2021 – Current"
+      },
+      {
+        "company": "Brightline Analytics",
+        "title": "Software Engineer",
+        "start": "2016-07",
+        "end": "2019-03",
+        "summary": "Software Engineer at Brightline Analytics July 2016 – March 2019"
+      },
+      {
+        "company": "Harbor Logistics",
+        "title": "Junior Software Engineer",
+        "start": "2012-07",
+        "end": "2016-03",
+        "summary": "Junior Software Engineer at Harbor Logistics July 2012 – March 2016"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Washington State University",
+        "degree": "BS",
+        "field": null,
+        "end_year": 2012
+      }
+    ],
+    "overall_confidence": 0.54,
+    "provenance": [
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "emails",
+        "source": "resume",
+        "method": "regex"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "full_name",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "headline",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "phones",
+        "source": "resume",
+        "method": "regex"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_996067f363f2",
+    "full_name": "Jane Mcdonald",
+    "emails": [
+      "jane.mcdonald@example.com"
+    ],
+    "phones": [
+      "+14155552671"
+    ],
+    "location": {
+      "city": "San Francisco",
+      "region": "CA",
+      "country": "US"
+    },
+    "links": {
+      "linkedin": "https://linkedin.com/in/janemcdonald",
+      "github": "https://github.com/janemcd",
+      "portfolio": "https://janemcd.dev",
+      "other": []
+    },
+    "headline": "Staff software engineer focused on distributed systems and data platforms.",
+    "years_experience": 9.0,
+    "skills": [
+      {
+        "name": "AWS",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Go",
+        "confidence": 0.99,
+        "sources": [
+          "ats_json",
+          "github",
+          "recruiter_notes",
+          "resume"
+        ],
+        "verified_in_code": true
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ],
+        "verified_in_code": true
+      },
+      {
+        "name": "Kubernetes",
+        "confidence": 0.99,
+        "sources": [
+          "ats_json",
+          "recruiter_notes",
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Python",
+        "confidence": 0.99,
+        "sources": [
+          "ats_json",
+          "github",
+          "recruiter_notes",
+          "resume"
+        ],
+        "verified_in_code": true
+      },
+      {
+        "name": "Rust",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ],
+        "verified_in_code": true
+      },
+      {
+        "name": "Terraform",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "gRPC",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      }
+    ],
+    "experience": [
+      {
+        "company": "Acme Corp",
+        "title": "Staff Software Engineer",
+        "start": "2021-03",
+        "end": null,
+        "summary": "Staff Software Engineer at Acme Corp Mar 2021 - Present"
+      },
+      {
+        "company": "Globex",
+        "title": "Senior Engineer",
+        "start": "2017-06",
+        "end": "2021-02",
+        "summary": "Senior Engineer at Globex Jun 2017 - Feb 2021"
+      }
+    ],
+    "education": [
+      {
+        "institution": "MIT",
+        "degree": "BS",
+        "field": "Computer Science",
+        "end_year": 2014
+      }
+    ],
+    "overall_confidence": 0.9246,
+    "provenance": [
+      {
+        "field": "education",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "emails",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_csv",
+        "method": "direct"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_notes",
+        "method": "regex"
+      },
+      {
+        "field": "emails",
+        "source": "resume",
+        "method": "regex"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "experience",
+        "source": "recruiter_csv",
+        "method": "direct"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "headline",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "links.github",
+        "source": "github",
+        "method": "api"
+      },
+      {
+        "field": "links.linkedin",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "links.portfolio",
+        "source": "github",
+        "method": "api"
+      },
+      {
+        "field": "location.city",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "location.country",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "location.region",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_csv",
+        "method": "direct"
+      },
+      {
+        "field": "phones",
+        "source": "resume",
+        "method": "regex"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "skills",
+        "source": "github",
+        "method": "api"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "regex"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "mapped"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_058a09397829",
+    "full_name": "Liang Wei",
+    "emails": [],
+    "phones": [
+      "+31206241111"
+    ],
+    "location": {
+      "city": "Amsterdam",
+      "region": null,
+      "country": "NL"
+    },
+    "links": {
+      "linkedin": null,
+      "github": "https://github.com/liangwei",
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Frontend engineer",
+    "years_experience": 6.0,
+    "skills": [
+      {
+        "name": "CSS",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ],
+        "verified_in_code": true
+      },
+      {
+        "name": "GraphQL",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "JavaScript",
+        "confidence": 0.5,
+        "sources": [
+          "github"
+        ],
+        "verified_in_code": true
+      },
+      {
+        "name": "Node.js",
+        "confidence": 0.9,
+        "sources": [
+          "ats_json"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "React",
+        "confidence": 0.95,
+        "sources": [
+          "ats_json",
+          "recruiter_notes"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "TypeScript",
+        "confidence": 0.99,
+        "sources": [
+          "ats_json",
+          "github",
+          "recruiter_notes"
+        ],
+        "verified_in_code": true
+      }
+    ],
+    "experience": [
+      {
+        "company": "Booking",
+        "title": "Frontend Engineer",
+        "start": "2019-08",
+        "end": null,
+        "summary": null
+      }
+    ],
+    "education": [
+      {
+        "institution": "TU Delft",
+        "degree": "MS",
+        "field": "Software Engineering",
+        "end_year": 2018
+      }
+    ],
+    "overall_confidence": 0.8924,
+    "provenance": [
+      {
+        "field": "education",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "experience",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "full_name",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "headline",
+        "source": "github",
+        "method": "api"
+      },
+      {
+        "field": "links.github",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "location.city",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "location.country",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "phones",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "phones",
+        "source": "recruiter_notes",
+        "method": "regex"
+      },
+      {
+        "field": "skills",
+        "source": "ats_json",
+        "method": "mapped"
+      },
+      {
+        "field": "skills",
+        "source": "github",
+        "method": "api"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "regex"
+      },
+      {
+        "field": "years_experience",
+        "source": "ats_json",
+        "method": "mapped"
+      }
+    ]
+  },
+  {
+    "candidate_id": "cand_0b36abb236c8",
+    "full_name": "Marco Rossi",
+    "emails": [
+      "marco.rossi@example.com"
+    ],
+    "phones": [
+      "+390612345678"
+    ],
+    "location": {
+      "city": null,
+      "region": null,
+      "country": null
+    },
+    "links": {
+      "linkedin": null,
+      "github": null,
+      "portfolio": null,
+      "other": []
+    },
+    "headline": "Backend engineer with a focus on payments and reliability.",
+    "years_experience": 8.0,
+    "skills": [
+      {
+        "name": "Docker",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Java",
+        "confidence": 0.585,
+        "sources": [
+          "recruiter_notes",
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Kafka",
+        "confidence": 0.585,
+        "sources": [
+          "recruiter_notes",
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "PostgreSQL",
+        "confidence": 0.54,
+        "sources": [
+          "resume"
+        ],
+        "verified_in_code": false
+      },
+      {
+        "name": "Spring",
+        "confidence": 0.585,
+        "sources": [
+          "recruiter_notes",
+          "resume"
+        ],
+        "verified_in_code": false
+      }
+    ],
+    "experience": [
+      {
+        "company": "FinPay",
+        "title": "Backend Engineer",
+        "start": "2020-01",
+        "end": null,
+        "summary": "Backend Engineer at FinPay Jan 2020 - Present"
+      },
+      {
+        "company": "Telecom Italia",
+        "title": "Software Engineer",
+        "start": "2016-09",
+        "end": "2019-12",
+        "summary": "Software Engineer at Telecom Italia Sep 2016 - Dec 2019"
+      }
+    ],
+    "education": [
+      {
+        "institution": "Sapienza University",
+        "degree": "MS",
+        "field": null,
+        "end_year": 2016
+      }
+    ],
+    "overall_confidence": 0.5283,
+    "provenance": [
+      {
+        "field": "education",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "emails",
+        "source": "recruiter_notes",
+        "method": "regex"
+      },
+      {
+        "field": "emails",
+        "source": "resume",
+        "method": "regex"
+      },
+      {
+        "field": "experience",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "full_name",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "headline",
+        "source": "resume",
+        "method": "heuristic"
+      },
+      {
+        "field": "phones",
+        "source": "resume",
+        "method": "regex"
+      },
+      {
+        "field": "skills",
+        "source": "recruiter_notes",
+        "method": "regex"
+      },
+      {
+        "field": "skills",
+        "source": "resume",
+        "method": "regex"
+      },
+      {
+        "field": "years_experience",
+        "source": "recruiter_notes",
+        "method": "regex"
+      }
+    ]
+  }
+]

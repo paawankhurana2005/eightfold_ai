@@ -1,0 +1,21 @@
+{
+  "candidate_id": "cand_996067f363f2",
+  "full_name": "Jane Mcdonald",
+  "primary_email": "jane.mcdonald@example.com",
+  "phone": "+14155552671",
+  "location_country": "US",
+  "current_title": "Staff Software Engineer",
+  "current_company": "Acme Corp",
+  "skills": [
+    "AWS",
+    "Go",
+    "JavaScript",
+    "Kubernetes",
+    "PostgreSQL",
+    "Python",
+    "Rust",
+    "Terraform",
+    "gRPC"
+  ],
+  "overall_confidence": 0.9246
+}

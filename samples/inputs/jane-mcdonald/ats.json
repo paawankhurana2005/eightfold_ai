@@ -1,0 +1,20 @@
+{
+  "candidateName": "Jane Mcdonald",
+  "emailAddress": "jane.mcdonald@example.com",
+  "mobile": "+14155552671",
+  "yearsOfExperience": 9,
+  "locationCity": "San Francisco",
+  "locationRegion": "CA",
+  "locationCountry": "USA",
+  "linkedinUrl": "https://linkedin.com/in/janemcdonald",
+  "skillSet": ["Python", "aws", "Kubernetes", "go"],
+  "workHistory": [
+    {"employer": "Acme Corp", "role": "Staff Software Engineer", "startDate": "2021-03", "endDate": "Present"},
+    {"employer": "Globex", "role": "Senior Engineer", "startDate": "2017-06", "endDate": "2021-02"}
+  ],
+  "education": [
+    {"school": "MIT", "degree": "BS", "fieldOfStudy": "Computer Science", "gradYear": 2014}
+  ],
+  "internalAtsId": "A-99812",
+  "recruiterRating": "strong"
+}

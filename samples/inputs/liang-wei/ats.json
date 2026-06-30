@@ -1,0 +1,15 @@
+{
+  "fullName": "Liang Wei",
+  "mobile": "+31 20 624 1111",
+  "yearsOfExperience": 6,
+  "locationCity": "Amsterdam",
+  "locationCountry": "The Netherlands",
+  "githubUrl": "https://github.com/liangwei",
+  "skillSet": ["typescript", "react", "node", "graphql"],
+  "workHistory": [
+    {"employer": "Booking", "role": "Frontend Engineer", "startDate": "2019-08", "endDate": "Present"}
+  ],
+  "education": [
+    {"school": "TU Delft", "degree": "MS", "fieldOfStudy": "Software Engineering", "gradYear": 2018}
+  ]
+}
